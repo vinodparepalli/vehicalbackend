@@ -19,11 +19,11 @@ public class controller {
 	public List<Coordinate> getCoordinates() {
 	     // Sample data; in a real application, this might come from a database or another service.
 	     return Arrays.asList(
-	         new Coordinate(new Coordinate.Point(28.2380, 83.9956), new Coordinate.Point(28.2370, 83.9950)),
-	         new Coordinate(new Coordinate.Point(28.2370, 83.9950), new Coordinate.Point(28.2360, 83.9940)),
-	         new Coordinate(new Coordinate.Point(28.2360, 83.9940), new Coordinate.Point(28.2350, 83.9930)),
-	         new Coordinate(new Coordinate.Point(28.2350, 83.9930), new Coordinate.Point(28.2340, 83.9920)),
-	         new Coordinate(new Coordinate.Point(28.2340, 83.9920), new Coordinate.Point(28.2330, 83.9910))
+	         new Coordinate(new Coordinate.Point(16.5092, 80.6175), new Coordinate.Point(16.5256, 80.6843)),
+	         new Coordinate(new Coordinate.Point(16.4957, 80.6542), new Coordinate.Point(16.4346, 80.5662)),
+	         new Coordinate(new Coordinate.Point(16.5419, 80.8050), new Coordinate.Point(16.4957, 80.6542)),
+	         new Coordinate(new Coordinate.Point(20.9320, 77.7523), new Coordinate.Point(16.3067, 80.4365)),
+	         new Coordinate(new Coordinate.Point(16.5238, 80.7914), new Coordinate.Point(16.7107, 81.0952))
 	     );
 	 }
 }
